@@ -23,35 +23,16 @@ ZenMonitor helps you hunt for items on Japanese marketplaces without constantly 
 - Telegram bot token from BotFather
 - Internet connection
 
-## Installation
-
-```
-# Clone the repository
-git clone https://github.com/k0rnd23/zenmonitor-bot.git
-cd zenmonitor-bot
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure settings
-cp config.example.py config.py
-# Edit config.py with your TELEGRAM_BOT_TOKEN and other settings
-```
-
 ## Configuration
 
 Edit the `config.py` file:
 
 ```python
 # Insert your token from BotFather
-TELEGRAM_BOT_TOKEN = "YOUR_TOKEN"
+TELEGRAM_BOT_TOKEN = "TOKEN"
 
 # Admin IDs (can be obtained through @userinfobot)
-ADMIN_CHAT_IDS =[123456789]
+ADMIN_CHAT_IDS = [123456789]
 
 # Redis settings (defaults for local server)
 REDIS_HOST = 'localhost'
