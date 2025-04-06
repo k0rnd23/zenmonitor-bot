@@ -1,7 +1,7 @@
 TELEGRAM_BOT_TOKEN = "TOKEN"
 DEFAULT_CHECK_INTERVAL_SECONDS = 2 * 60 # check every 2 minutes
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-ADMIN_CHAT_IDS = [6331888034]
+ADMIN_CHAT_IDS = [00000000]
 
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
